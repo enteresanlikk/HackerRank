@@ -1,7 +1,4 @@
 const weekdayText = weekdays => {
-    if(typeof weekdays != 'object') {
-        throw new Error('weekdays must be array');
-    }
     return index => {
         if(index < 0 || index > weekdays.length - 1) {
             throw new Error('Invalid weekday number');
