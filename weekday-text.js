@@ -7,7 +7,7 @@ const weekdayText = weekdays => {
     }
 }
 
-const getText = weekdayText('Mon Tue Wed Thu Fri Sat Sun');
+const getText = weekdayText('Mon Tue Wed Thu Fri Sat Sun'.split(' '));
 
 console.log(getText(5));
 
